@@ -1,5 +1,5 @@
 # Alfred Cardhop
-Run Cardhop queries through Alfred
+An Alfred workflow to pass queries to Cardhop.
 
 ## Description
 A simple [Alfred](http://www.alfredapp.com/) workflow to search, add, update, call, message, or copy contacts by passing queries through to the [Cardhop](http://flexibits.com/cardhop) desktop application.
