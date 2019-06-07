@@ -8,19 +8,6 @@
 	<string>Tools</string>
 	<key>connections</key>
 	<dict>
-		<key>28FA8691-90A4-4F2B-8155-1E348FCA3959</key>
-		<array>
-			<dict>
-				<key>destinationuid</key>
-				<string>F85BCB77-5010-4621-9108-D38285F14303</string>
-				<key>modifiers</key>
-				<integer>0</integer>
-				<key>modifiersubtext</key>
-				<string></string>
-				<key>vitoclose</key>
-				<false/>
-			</dict>
-		</array>
 		<key>DEBBA624-A11B-45E1-B014-A5C5434DBCE8</key>
 		<array>
 			<dict>
@@ -33,16 +20,26 @@
 				<key>vitoclose</key>
 				<false/>
 			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>F85BCB77-5010-4621-9108-D38285F14303</string>
+				<key>modifiers</key>
+				<integer>524288</integer>
+				<key>modifiersubtext</key>
+				<string>Copy contact card information to clipboard</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
 		</array>
 	</dict>
 	<key>createdby</key>
 	<string>Simple Digital</string>
 	<key>description</key>
-	<string>Run Cardhop queries through Alfred</string>
+	<string>Query Cardhop Contacts in Alfred</string>
 	<key>disabled</key>
 	<false/>
 	<key>name</key>
-	<string>Alfred Cardhop</string>
+	<string>Alfred Cardhopper</string>
 	<key>objects</key>
 	<array>
 		<dict>
@@ -76,9 +73,9 @@
 				<key>keyword</key>
 				<string>hop</string>
 				<key>subtext</key>
-				<string></string>
-				<key>text</key>
 				<string>Run a Query Using Cardhop</string>
+				<key>text</key>
+				<string>Search &amp; Manage Contacts via Cardhop</string>
 				<key>withspace</key>
 				<true/>
 			</dict>
@@ -86,27 +83,6 @@
 			<string>alfred.workflow.input.keyword</string>
 			<key>uid</key>
 			<string>DEBBA624-A11B-45E1-B014-A5C5434DBCE8</string>
-			<key>version</key>
-			<integer>1</integer>
-		</dict>
-		<dict>
-			<key>config</key>
-			<dict>
-				<key>argumenttype</key>
-				<integer>0</integer>
-				<key>keyword</key>
-				<string>hop</string>
-				<key>subtext</key>
-				<string>Copy contact card information to clipboard</string>
-				<key>text</key>
-				<string>Copy Cardhop Contact Card</string>
-				<key>withspace</key>
-				<true/>
-			</dict>
-			<key>type</key>
-			<string>alfred.workflow.input.keyword</string>
-			<key>uid</key>
-			<string>28FA8691-90A4-4F2B-8155-1E348FCA3959</string>
 			<key>version</key>
 			<integer>1</integer>
 		</dict>
@@ -135,39 +111,36 @@
 		</dict>
 	</array>
 	<key>readme</key>
-	<string></string>
+	<string>Manage, query, and search your contacts through Alfred by passing queries through to the Cardhop MacOS App.</string>
 	<key>uidata</key>
 	<dict>
-		<key>28FA8691-90A4-4F2B-8155-1E348FCA3959</key>
-		<dict>
-			<key>xpos</key>
-			<integer>300</integer>
-			<key>ypos</key>
-			<integer>460</integer>
-		</dict>
 		<key>77072C79-C627-4554-ACE9-C6FA55473C5E</key>
 		<dict>
 			<key>xpos</key>
-			<integer>590</integer>
+			<integer>480</integer>
 			<key>ypos</key>
-			<integer>340</integer>
+			<integer>140</integer>
 		</dict>
 		<key>DEBBA624-A11B-45E1-B014-A5C5434DBCE8</key>
 		<dict>
 			<key>xpos</key>
-			<integer>300</integer>
+			<integer>280</integer>
 			<key>ypos</key>
-			<integer>340</integer>
+			<integer>225</integer>
 		</dict>
 		<key>F85BCB77-5010-4621-9108-D38285F14303</key>
 		<dict>
 			<key>xpos</key>
-			<integer>590</integer>
+			<integer>480</integer>
 			<key>ypos</key>
-			<integer>460</integer>
+			<integer>320</integer>
 		</dict>
 	</dict>
+	<key>variablesdontexport</key>
+	<array/>
+	<key>version</key>
+	<string>0.1.1</string>
 	<key>webaddress</key>
-	<string>https://simpledigital.net</string>
+	<string>https://simpledigital.net/</string>
 </dict>
 </plist>
